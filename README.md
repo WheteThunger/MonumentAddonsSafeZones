@@ -27,8 +27,8 @@ This plugin registers a custom addon called `safezone` with Monument Addons. Thi
 - `maspawn safezone offset <x>,<y>,<z> size <x>,<y>,<z> radius <number>` -- Creates a safe zone where you are aiming. The `offset`, `size` and `radius` options are all optional and can be provided in any order.
   - Example: `maspawn safezone radius 10` -- Creates a spherical safe zone with 10m radius (20m diameter), centered on the point where you are aiming.
   - Example: `maspawn safezone radius 10 offset 0,5,0` -- Creates a spherical safe zone, centered 5m above the point where you are aiming.
-  - Example: `maspawn safezone size 20,10,20` -- Creates a box safe zone that is 10m wide and 10m tall, centered on the point where you are aiming.
-  - Example: `maspawn safezone size 20,10,20 offset 0,5,0` -- Creates a box safe zone that is 10m wide and 10m tall, centered 5m above the point where you are aiming.
+  - Example: `maspawn safezone size 20,10,20` -- Creates a box safe zone that is 20m wide and 10m tall, centered on the point where you are aiming.
+  - Example: `maspawn safezone size 20,10,20 offset 0,5,0` -- Creates a box safe zone that is 20m wide and 10m tall, centered 5m above the point where you are aiming.
 - `maedit safezone offset <x>,<y>,<z> size <x>,<y>,<z> radius <number>` -- Edits the safe zone you are aiming at. Same options as `maspawn safezone`.
 
 Note: When providing `size` or `offset` options, make sure there are **NO SPACES** in between the numbers.
